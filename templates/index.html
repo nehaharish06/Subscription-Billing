@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscription Billing App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>📊 Subscription Billing Engine</h1>
+
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label>Upload Subscriptions CSV:</label>
+        <input type="file" name="subscriptions" required>
+
+        <label>Upload Usage CSV:</label>
+        <input type="file" name="usage" required>
+
+        <button type="submit">Process Billing</button>
+    </form>
+</div>
+
+</body>
+</html>
