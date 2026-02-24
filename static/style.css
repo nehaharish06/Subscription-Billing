@@ -1,0 +1,73 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Full page background */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #764ba2, #667eea);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center wrapper */
+.page-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass card container */
+.container {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px 50px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    width: 400px;
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+
+/* Title */
+.container h1 {
+    margin-bottom: 25px;
+}
+
+/* Form spacing */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* File inputs */
+input[type="file"] {
+    margin-top: 8px;
+    color: rgb(0, 0, 0);
+}
+
+/* Button */
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}

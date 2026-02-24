@@ -82,7 +82,7 @@ def process():
     output_df.to_csv("billing_output.csv", index=False)
     generate_summary(output_df, "billing_summary.json")
 
-    # 🔥 NEW DASHBOARD SUMMARY LOGIC
+    # SUMMARY LOGIC
 
     active_count = len(output_df[output_df["final_status"] == "ACTIVE"])
     suspended_count = len(output_df[output_df["final_status"] == "SUSPENDED"])
