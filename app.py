@@ -122,5 +122,10 @@ def download_excel():
         as_attachment=True
     )
 
+
+@app.route("/download-summary")
+def download_summary():
+    return send_file("billing_summary.json", as_attachment=True)
+
 if __name__ == "__main__":
     app.run(debug=True)

@@ -334,3 +334,52 @@
 2026-02-23 17:53:44,410 - INFO - Billing summary generated
 2026-02-23 17:53:44,455 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:44] "POST /process HTTP/1.1" 200 -
 2026-02-23 17:53:44,475 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-24 11:49:36,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 11:49:36,144 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 11:49:36,155 - INFO -  * Restarting with stat
+2026-02-24 11:49:38,738 - WARNING -  * Debugger is active!
+2026-02-24 11:49:38,752 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 11:49:50,670 - WARNING - 3 invalid date records skipped
+2026-02-24 11:49:50,721 - INFO - Billing summary generated
+2026-02-24 11:49:50,761 - INFO - 127.0.0.1 - - [24/Feb/2026 11:49:50] "POST /process HTTP/1.1" 200 -
+2026-02-24 11:49:51,019 - INFO - 127.0.0.1 - - [24/Feb/2026 11:49:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-24 11:50:01,781 - INFO - 127.0.0.1 - - [24/Feb/2026 11:50:01] "GET /download-summary HTTP/1.1" 200 -
+2026-02-24 11:53:17,749 - WARNING - 3 invalid date records skipped
+2026-02-24 11:53:17,768 - INFO - Billing summary generated
+2026-02-24 11:53:17,790 - INFO - 127.0.0.1 - - [24/Feb/2026 11:53:17] "POST /process HTTP/1.1" 200 -
+2026-02-24 11:53:17,819 - INFO - 127.0.0.1 - - [24/Feb/2026 11:53:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-24 13:10:30,114 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\billing_engine.py', reloading
+2026-02-24 13:10:30,679 - INFO -  * Restarting with stat
+2026-02-24 13:10:33,935 - WARNING -  * Debugger is active!
+2026-02-24 13:10:33,956 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:10:46,562 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\status_engine.py', reloading
+2026-02-24 13:10:46,723 - INFO -  * Restarting with stat
+2026-02-24 13:10:49,502 - WARNING -  * Debugger is active!
+2026-02-24 13:10:49,519 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:10:54,186 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\usage_aggregator.py', reloading
+2026-02-24 13:10:54,397 - INFO -  * Restarting with stat
+2026-02-24 13:10:57,008 - WARNING -  * Debugger is active!
+2026-02-24 13:10:57,020 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:05,612 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\loader.py', reloading
+2026-02-24 13:11:05,765 - INFO -  * Restarting with stat
+2026-02-24 13:11:08,081 - WARNING -  * Debugger is active!
+2026-02-24 13:11:08,091 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:17,074 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\reporter.py', reloading
+2026-02-24 13:11:17,231 - INFO -  * Restarting with stat
+2026-02-24 13:11:19,265 - WARNING -  * Debugger is active!
+2026-02-24 13:11:19,274 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:34,245 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\reporter.py', reloading
+2026-02-24 13:11:34,397 - INFO -  * Restarting with stat
+2026-02-24 13:11:36,940 - WARNING -  * Debugger is active!
+2026-02-24 13:11:36,948 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:59,477 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\subscriptions.csv
+2026-02-24 13:11:59,480 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\usage.csv
+2026-02-24 13:11:59,503 - WARNING - 3 invalid date records skipped
+2026-02-24 13:11:59,550 - INFO - Billing summary generated
+2026-02-24 13:11:59,550 - INFO - Billing process completed successfully
+2026-02-24 13:13:43,474 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\subscriptions.csv
+2026-02-24 13:13:43,479 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\usage.csv
+2026-02-24 13:13:43,485 - WARNING - 3 invalid date records skipped
+2026-02-24 13:13:43,504 - INFO - Billing summary generated
+2026-02-24 13:13:43,504 - INFO - Billing process completed successfully

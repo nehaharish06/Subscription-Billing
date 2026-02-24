@@ -26,19 +26,33 @@ def run():
     subscriptions = load_csv(os.path.join(DATA_DIR, "subscriptions.csv"))
     usage = load_csv(os.path.join(DATA_DIR, "usage.csv"))
 
+    if subscriptions.empty:
+        logging.error("No subscription data found. Exiting.")
+        return
+
     usage_map = aggregate_usage(usage)
 
     results = []
 
     for _, row in subscriptions.iterrows():
 
-        subscription_id = row["subscription_id"]
-        status = row["status"]
+        subscription_id = row.get("subscription_id")
+        status = row.get("status", "ACTIVE")
 
         total_usage = usage_map.get(subscription_id, 0)
 
-        monthly_fee = float(row["monthly_fee"])
-        usage_limit = float(row["usage_limit_gb"])
+        # Safe numeric parsing
+        try:
+            monthly_fee = float(row.get("monthly_fee", 0))
+        except:
+            monthly_fee = 0.0
+            logging.warning(f"Invalid monthly_fee for {subscription_id}")
+
+        try:
+            usage_limit = float(row.get("usage_limit_gb", 0))
+        except:
+            usage_limit = 0.0
+            logging.warning(f"Invalid usage_limit for {subscription_id}")
 
         total_bill, overage = calculate_bill(
             monthly_fee,
@@ -55,17 +69,20 @@ def run():
 
         results.append({
             "subscription_id": subscription_id,
-            "customer_id": row["customer_id"],
-            "plan": row["plan"],
-            "total_usage_gb": total_usage,
-            "overage_gb": overage,
-            "total_bill": total_bill,
+            "customer_id": row.get("customer_id"),
+            "plan": row.get("plan"),
+            "total_usage_gb": float(total_usage),
+            "overage_gb": float(overage),
+            "total_bill": float(total_bill),
             "final_status": final_status
         })
 
     output_df = pd.DataFrame(results)
 
-    output_df.to_csv(os.path.join(BASE_DIR, "billing_output.csv"), index=False)
+    output_df.to_csv(
+        os.path.join(BASE_DIR, "billing_output.csv"),
+        index=False
+    )
 
     generate_summary(
         output_df,
@@ -73,6 +90,7 @@ def run():
     )
 
     logging.info("Billing process completed successfully")
+
 
 if __name__ == "__main__":
     run()

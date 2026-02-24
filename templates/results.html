@@ -96,6 +96,7 @@
     <div style="text-align:center; margin-top:20px;">
         <a href="/download/csv" class="download-btn">⬇ Download CSV</a>
         <a href="/download/excel" class="download-btn">⬇ Download Excel</a>
+        <a href="/download-summary" class="download-btn">⬇ 0Download Summary JSON</a>
         <a href="/" class="back-btn"> ⬅ Back</a>
     </div>
 
@@ -111,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const withinLimit = Number("{{ summary.within_limit_count }}");
     const revenue = Number("{{ summary.total_revenue }}");
 
-    // 1️⃣ Status Distribution
+    // 1️ Status Distribution
     new Chart(document.getElementById('statusChart'), {
         type: 'doughnut',
         data: {
@@ -127,7 +128,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // 2️⃣ Usage Behaviour
+    // 2️ Usage Behaviour
     new Chart(document.getElementById('usageChart'), {
         type: 'doughnut',
         data: {
@@ -143,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    // 3️⃣ Revenue Overview
+    // 3️ Revenue Overview
     new Chart(document.getElementById('revenueChart'), {
         type: 'doughnut',
         data: {
