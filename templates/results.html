@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billing Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="dashboard-container">
+
+    <h1>Subscription Billing Dashboard</h1>
+
+    <!-- KPI Cards -->
+    <div class="kpi-section">
+        <div class="kpi-card">
+            <h4>Total Subscriptions</h4>
+            <p>{{ summary.total_subscriptions }}</p>
+        </div>
+
+        <div class="kpi-card">
+            <h4>Total Revenue</h4>
+            <p>₹ {{ summary.total_revenue }}</p>
+        </div>
+        <div class="kpi-card">
+            <h4>Active Subscriptions</h4>
+            <p>{{ summary.active_count }}</p>
+        </div>
+        <div class="kpi-card">
+            <h4>Suspended Subscriptions</h4>
+            <p>{{ summary.suspended_count }}</p>
+        </div>
+        <div class="kpi-card">
+            <h4>Cancelled Subscriptions</h4>
+            <p>{{ summary.cancelled_count }}</p>
+        </div>
+    </div>
+    
+
+    <!-- Chart -->
+     <div class="charts-grid">
+        <div class="chart-card">
+            <h3>Status Distribution</h3>
+            <canvas id="statusChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h3>Usage Behaviour</h3>
+            <canvas id="usageChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h3>Revenue Overview</h3>
+            <canvas id="revenueChart"></canvas>
+        </div>
+    </div>
+   
+
+    <!-- Table -->
+    <div class="table-box">
+        <h2>📈 Billing Details</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Customer</th>
+                    <th>Plan</th>
+                    <th>Usage(GB)</th>
+                    <th>Overage(GB)</th>
+                    <th>Bill</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {% for row in tables %}
+                <tr>
+                    <td>{{ row.subscription_id }}</td>
+                    <td>{{ row.customer_id }}</td>
+                    <td>{{ row.plan }}</td>
+                    <td>{{ row.total_usage_gb }}</td>
+                    <td>{{ row.overage_gb }}</td>
+                    <td>₹ {{ row.total_bill }}</td>
+                    <td>
+                        <span class="status-badge {{ row.final_status }}">
+                            {{ row.final_status }}
+                        </span>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <div style="text-align:center; margin-top:20px;">
+        <a href="/download/csv" class="download-btn">⬇ Download CSV</a>
+        <a href="/download/excel" class="download-btn">⬇ Download Excel</a>
+        <a href="/download-summary" class="download-btn">⬇ 0Download Summary JSON</a>
+        <a href="/" class="back-btn"> ⬅ Back</a>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const active = Number("{{ summary.active_count }}");
+    const suspended = Number("{{ summary.suspended_count }}");
+    const cancelled = Number("{{ summary.cancelled_count }}");
+    const overLimit = Number("{{ summary.over_limit_count }}");
+    const withinLimit = Number("{{ summary.within_limit_count }}");
+    const revenue = Number("{{ summary.total_revenue }}");
+
+    // 1️ Status Distribution
+    new Chart(document.getElementById('statusChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Active', 'Suspended', 'Cancelled'],
+            datasets: [{
+                data: [active, suspended, cancelled],
+                backgroundColor: ['#4CAF50', '#FFC107', '#EF5350']
+            }]
+        },
+        options: {
+            cutout: '65%',
+            plugins: { legend: { position: 'bottom' } }
+        }
+    });
+
+    // 2️ Usage Behaviour
+    new Chart(document.getElementById('usageChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Within Limit', 'Exceeded Limit'],
+            datasets: [{
+                data: [withinLimit, overLimit],
+                backgroundColor: ['#667eea', '#764ba2']
+            }]
+        },
+        options: {
+            cutout: '65%',
+            plugins: { legend: { position: 'bottom' } }
+        }
+    });
+
+    // 3️ Revenue Overview
+    new Chart(document.getElementById('revenueChart'), {
+        type: 'doughnut',
+        data: {
+            labels: ['Revenue'],
+            datasets: [{
+                data: [revenue],
+                backgroundColor: ['#9C27B0']
+            }]
+        },
+        options: {
+            cutout: '65%',
+           plugins: { legend: { position: 'bottom' } }
+        }
+    });
+
+});
+</script>
+</body>
+</html>

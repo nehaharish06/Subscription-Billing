@@ -1,0 +1,385 @@
+2026-02-22 11:54:18,391 - INFO - Loaded file: E:\userstory8\Subscription-Billing\data\subscriptions.csv
+2026-02-22 11:54:18,457 - INFO - Loaded file: E:\userstory8\Subscription-Billing\data\usage.csv
+2026-02-22 11:54:18,481 - WARNING - 3 invalid date records skipped
+2026-02-22 11:54:18,585 - INFO - Billing summary generated
+2026-02-22 11:54:18,586 - INFO - Billing process completed successfully
+2026-02-22 12:01:06,267 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 12:01:06,267 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 12:01:06,274 - INFO -  * Restarting with stat
+2026-02-22 12:01:09,152 - WARNING -  * Debugger is active!
+2026-02-22 12:01:09,261 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 12:01:41,253 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 12:01:41,253 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 12:01:41,257 - INFO -  * Restarting with stat
+2026-02-22 12:01:44,115 - WARNING -  * Debugger is active!
+2026-02-22 12:01:44,126 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 12:02:12,395 - INFO - 127.0.0.1 - - [22/Feb/2026 12:02:12] "GET / HTTP/1.1" 200 -
+2026-02-22 12:02:12,505 - INFO - 127.0.0.1 - - [22/Feb/2026 12:02:12] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:02:12,630 - INFO - 127.0.0.1 - - [22/Feb/2026 12:02:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-02-22 12:02:48,855 - WARNING - 3 invalid date records skipped
+2026-02-22 12:02:48,904 - INFO - Billing summary generated
+2026-02-22 12:02:48,976 - INFO - 127.0.0.1 - - [22/Feb/2026 12:02:48] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:02:49,017 - INFO - 127.0.0.1 - - [22/Feb/2026 12:02:49] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:03:01,732 - INFO - 127.0.0.1 - - [22/Feb/2026 12:03:01] "GET / HTTP/1.1" 200 -
+2026-02-22 12:03:01,763 - INFO - 127.0.0.1 - - [22/Feb/2026 12:03:01] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:27:14,144 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 12:27:14,155 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 12:27:14,159 - INFO -  * Restarting with stat
+2026-02-22 12:27:15,382 - WARNING -  * Debugger is active!
+2026-02-22 12:27:15,395 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 12:27:23,463 - INFO - 127.0.0.1 - - [22/Feb/2026 12:27:23] "GET / HTTP/1.1" 200 -
+2026-02-22 12:27:23,571 - INFO - 127.0.0.1 - - [22/Feb/2026 12:27:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:27:39,121 - WARNING - 3 invalid date records skipped
+2026-02-22 12:27:39,171 - INFO - Billing summary generated
+2026-02-22 12:27:39,237 - INFO - 127.0.0.1 - - [22/Feb/2026 12:27:39] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:27:39,254 - INFO - 127.0.0.1 - - [22/Feb/2026 12:27:39] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:30:37,305 - WARNING - 3 invalid date records skipped
+2026-02-22 12:30:37,314 - INFO - Billing summary generated
+2026-02-22 12:30:37,324 - INFO - 127.0.0.1 - - [22/Feb/2026 12:30:37] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:30:37,352 - INFO - 127.0.0.1 - - [22/Feb/2026 12:30:37] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:34:07,871 - WARNING - 3 invalid date records skipped
+2026-02-22 12:34:07,884 - INFO - Billing summary generated
+2026-02-22 12:34:07,953 - INFO - 127.0.0.1 - - [22/Feb/2026 12:34:07] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:34:07,980 - INFO - 127.0.0.1 - - [22/Feb/2026 12:34:07] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:34:13,559 - WARNING - 3 invalid date records skipped
+2026-02-22 12:34:13,575 - INFO - Billing summary generated
+2026-02-22 12:34:13,579 - INFO - 127.0.0.1 - - [22/Feb/2026 12:34:13] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:34:13,762 - INFO - 127.0.0.1 - - [22/Feb/2026 12:34:13] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:35:28,652 - WARNING - 3 invalid date records skipped
+2026-02-22 12:35:28,668 - INFO - Billing summary generated
+2026-02-22 12:35:28,674 - INFO - 127.0.0.1 - - [22/Feb/2026 12:35:28] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:35:28,700 - INFO - 127.0.0.1 - - [22/Feb/2026 12:35:28] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:43:15,142 - WARNING - 3 invalid date records skipped
+2026-02-22 12:43:15,169 - INFO - Billing summary generated
+2026-02-22 12:43:15,184 - INFO - 127.0.0.1 - - [22/Feb/2026 12:43:15] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:43:15,213 - INFO - 127.0.0.1 - - [22/Feb/2026 12:43:15] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:52:03,568 - WARNING - 3 invalid date records skipped
+2026-02-22 12:52:03,581 - INFO - Billing summary generated
+2026-02-22 12:52:03,584 - INFO - 127.0.0.1 - - [22/Feb/2026 12:52:03] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:52:03,599 - INFO - 127.0.0.1 - - [22/Feb/2026 12:52:03] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 12:58:49,761 - WARNING - 3 invalid date records skipped
+2026-02-22 12:58:49,774 - INFO - Billing summary generated
+2026-02-22 12:58:49,788 - INFO - 127.0.0.1 - - [22/Feb/2026 12:58:49] "POST /process HTTP/1.1" 200 -
+2026-02-22 12:58:49,908 - INFO - 127.0.0.1 - - [22/Feb/2026 12:58:49] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:00:02,945 - WARNING - 3 invalid date records skipped
+2026-02-22 13:00:02,959 - INFO - Billing summary generated
+2026-02-22 13:00:02,963 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:02] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:00:03,003 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:03] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:00:14,191 - WARNING - 3 invalid date records skipped
+2026-02-22 13:00:14,200 - INFO - Billing summary generated
+2026-02-22 13:00:14,202 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:14] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:00:14,238 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:14] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:00:34,841 - WARNING - 3 invalid date records skipped
+2026-02-22 13:00:34,852 - INFO - Billing summary generated
+2026-02-22 13:00:34,854 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:34] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:00:34,881 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:34] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:00:45,467 - WARNING - 3 invalid date records skipped
+2026-02-22 13:00:45,474 - INFO - Billing summary generated
+2026-02-22 13:00:45,475 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:45] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:00:45,503 - INFO - 127.0.0.1 - - [22/Feb/2026 13:00:45] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:04:09,301 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:04:09,639 - INFO -  * Restarting with stat
+2026-02-22 13:09:20,569 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 13:09:20,581 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 13:09:20,585 - INFO -  * Restarting with stat
+2026-02-22 13:09:21,529 - WARNING -  * Debugger is active!
+2026-02-22 13:09:21,548 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:09:24,111 - WARNING - 3 invalid date records skipped
+2026-02-22 13:09:24,139 - INFO - Billing summary generated
+2026-02-22 13:09:24,850 - INFO - 127.0.0.1 - - [22/Feb/2026 13:09:24] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:09:24,939 - INFO - 127.0.0.1 - - [22/Feb/2026 13:09:24] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:10:23,274 - INFO - 127.0.0.1 - - [22/Feb/2026 13:10:23] "GET / HTTP/1.1" 200 -
+2026-02-22 13:10:23,291 - INFO - 127.0.0.1 - - [22/Feb/2026 13:10:23] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-22 13:10:39,518 - WARNING - 3 invalid date records skipped
+2026-02-22 13:10:39,529 - INFO - Billing summary generated
+2026-02-22 13:10:39,533 - INFO - 127.0.0.1 - - [22/Feb/2026 13:10:39] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:10:39,552 - INFO - 127.0.0.1 - - [22/Feb/2026 13:10:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:16:52,256 - WARNING - 3 invalid date records skipped
+2026-02-22 13:16:52,272 - INFO - Billing summary generated
+2026-02-22 13:16:52,279 - INFO - 127.0.0.1 - - [22/Feb/2026 13:16:52] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:16:52,443 - INFO - 127.0.0.1 - - [22/Feb/2026 13:16:52] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:17:34,475 - WARNING - 3 invalid date records skipped
+2026-02-22 13:17:34,492 - INFO - Billing summary generated
+2026-02-22 13:17:34,500 - INFO - 127.0.0.1 - - [22/Feb/2026 13:17:34] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:17:34,534 - INFO - 127.0.0.1 - - [22/Feb/2026 13:17:34] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:17:47,275 - WARNING - 3 invalid date records skipped
+2026-02-22 13:17:47,285 - INFO - Billing summary generated
+2026-02-22 13:17:47,287 - INFO - 127.0.0.1 - - [22/Feb/2026 13:17:47] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:17:47,302 - INFO - 127.0.0.1 - - [22/Feb/2026 13:17:47] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:17:59,764 - WARNING - 3 invalid date records skipped
+2026-02-22 13:17:59,773 - INFO - Billing summary generated
+2026-02-22 13:17:59,776 - INFO - 127.0.0.1 - - [22/Feb/2026 13:17:59] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:17:59,792 - INFO - 127.0.0.1 - - [22/Feb/2026 13:17:59] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:24:29,083 - WARNING - 3 invalid date records skipped
+2026-02-22 13:24:29,094 - INFO - Billing summary generated
+2026-02-22 13:24:29,179 - INFO - 127.0.0.1 - - [22/Feb/2026 13:24:29] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:24:29,196 - INFO - 127.0.0.1 - - [22/Feb/2026 13:24:29] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:31:12,525 - WARNING - 3 invalid date records skipped
+2026-02-22 13:31:12,543 - INFO - Billing summary generated
+2026-02-22 13:31:12,551 - INFO - 127.0.0.1 - - [22/Feb/2026 13:31:12] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:31:12,595 - INFO - 127.0.0.1 - - [22/Feb/2026 13:31:12] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:31:35,928 - WARNING - 3 invalid date records skipped
+2026-02-22 13:31:35,936 - INFO - Billing summary generated
+2026-02-22 13:31:36,030 - INFO - 127.0.0.1 - - [22/Feb/2026 13:31:36] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:31:36,045 - INFO - 127.0.0.1 - - [22/Feb/2026 13:31:36] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:34:57,941 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:34:58,293 - INFO -  * Restarting with stat
+2026-02-22 13:35:05,110 - WARNING -  * Debugger is active!
+2026-02-22 13:35:05,150 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:35:27,749 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:35:27,883 - INFO -  * Restarting with stat
+2026-02-22 13:35:28,987 - WARNING -  * Debugger is active!
+2026-02-22 13:35:28,994 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:39:44,513 - WARNING - 3 invalid date records skipped
+2026-02-22 13:39:44,527 - INFO - Billing summary generated
+2026-02-22 13:39:44,551 - INFO - 127.0.0.1 - - [22/Feb/2026 13:39:44] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:39:44,666 - INFO - 127.0.0.1 - - [22/Feb/2026 13:39:44] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 13:41:25,503 - WARNING - 3 invalid date records skipped
+2026-02-22 13:41:25,512 - INFO - Billing summary generated
+2026-02-22 13:41:25,526 - INFO - 127.0.0.1 - - [22/Feb/2026 13:41:25] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:41:25,543 - INFO - 127.0.0.1 - - [22/Feb/2026 13:41:25] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:43:57,238 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:43:57,375 - INFO -  * Restarting with stat
+2026-02-22 13:49:33,458 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 13:49:33,476 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 13:49:33,479 - INFO -  * Restarting with stat
+2026-02-22 13:49:34,460 - WARNING -  * Debugger is active!
+2026-02-22 13:49:34,465 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:49:37,645 - WARNING - 3 invalid date records skipped
+2026-02-22 13:49:37,699 - INFO - Billing summary generated
+2026-02-22 13:49:38,295 - INFO - 127.0.0.1 - - [22/Feb/2026 13:49:38] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+2026-02-22 13:49:38,957 - INFO - 127.0.0.1 - - [22/Feb/2026 13:49:38] "GET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-02-22 13:49:39,386 - INFO - 127.0.0.1 - - [22/Feb/2026 13:49:39] "GET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-02-22 13:49:39,492 - INFO - 127.0.0.1 - - [22/Feb/2026 13:49:39] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=BLj0tZO8GLQ6luGExXOi HTTP/1.1" 200 -
+2026-02-22 13:49:39,508 - INFO - 127.0.0.1 - - [22/Feb/2026 13:49:39] "GET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-02-22 13:49:59,687 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:49:59,810 - INFO -  * Restarting with stat
+2026-02-22 13:50:00,752 - WARNING -  * Debugger is active!
+2026-02-22 13:50:00,756 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:50:12,795 - WARNING - 3 invalid date records skipped
+2026-02-22 13:50:12,809 - INFO - Billing summary generated
+2026-02-22 13:50:12,836 - INFO - 127.0.0.1 - - [22/Feb/2026 13:50:12] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:50:12,908 - INFO - 127.0.0.1 - - [22/Feb/2026 13:50:12] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:51:13,333 - WARNING - 3 invalid date records skipped
+2026-02-22 13:51:13,348 - INFO - Billing summary generated
+2026-02-22 13:51:13,367 - INFO - 127.0.0.1 - - [22/Feb/2026 13:51:13] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:51:13,383 - INFO - 127.0.0.1 - - [22/Feb/2026 13:51:13] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:51:44,245 - WARNING - 3 invalid date records skipped
+2026-02-22 13:51:44,257 - INFO - Billing summary generated
+2026-02-22 13:51:44,271 - INFO - 127.0.0.1 - - [22/Feb/2026 13:51:44] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:51:44,286 - INFO - 127.0.0.1 - - [22/Feb/2026 13:51:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:52:26,525 - WARNING - 3 invalid date records skipped
+2026-02-22 13:52:26,537 - INFO - Billing summary generated
+2026-02-22 13:52:26,553 - INFO - 127.0.0.1 - - [22/Feb/2026 13:52:26] "POST /process HTTP/1.1" 200 -
+2026-02-22 13:52:26,572 - INFO - 127.0.0.1 - - [22/Feb/2026 13:52:26] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-22 13:55:37,847 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:55:37,972 - INFO -  * Restarting with stat
+2026-02-22 13:55:39,101 - WARNING -  * Debugger is active!
+2026-02-22 13:55:39,106 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:56:03,621 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:56:03,736 - INFO -  * Restarting with stat
+2026-02-22 13:56:04,799 - WARNING -  * Debugger is active!
+2026-02-22 13:56:04,803 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:56:26,217 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:56:26,397 - INFO -  * Restarting with stat
+2026-02-22 13:56:27,486 - WARNING -  * Debugger is active!
+2026-02-22 13:56:27,489 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 13:56:46,032 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 13:56:46,149 - INFO -  * Restarting with stat
+2026-02-22 14:00:40,457 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 14:00:40,457 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 14:00:40,458 - INFO -  * Restarting with stat
+2026-02-22 14:00:41,324 - WARNING -  * Debugger is active!
+2026-02-22 14:00:41,328 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 14:00:46,914 - INFO - 127.0.0.1 - - [22/Feb/2026 14:00:46] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+2026-02-22 14:00:47,017 - INFO - 127.0.0.1 - - [22/Feb/2026 14:00:47] "[36mGET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-22 14:00:47,017 - INFO - 127.0.0.1 - - [22/Feb/2026 14:00:47] "[36mGET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-22 14:00:47,135 - INFO - 127.0.0.1 - - [22/Feb/2026 14:00:47] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=k8FwS6Bj9oJ8UDkYSKvb HTTP/1.1" 200 -
+2026-02-22 14:00:47,145 - INFO - 127.0.0.1 - - [22/Feb/2026 14:00:47] "[36mGET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-22 14:02:07,621 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 14:02:07,735 - INFO -  * Restarting with stat
+2026-02-22 14:02:08,615 - WARNING -  * Debugger is active!
+2026-02-22 14:02:08,619 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 14:02:12,859 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 14:02:12,960 - INFO -  * Restarting with stat
+2026-02-22 14:02:13,845 - WARNING -  * Debugger is active!
+2026-02-22 14:02:13,849 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 14:02:18,011 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 14:02:18,118 - INFO -  * Restarting with stat
+2026-02-22 14:02:19,216 - WARNING -  * Debugger is active!
+2026-02-22 14:02:19,221 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 14:02:31,319 - WARNING - 3 invalid date records skipped
+2026-02-22 14:02:31,336 - INFO - Billing summary generated
+2026-02-22 14:02:31,359 - INFO - 127.0.0.1 - - [22/Feb/2026 14:02:31] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:02:31,444 - INFO - 127.0.0.1 - - [22/Feb/2026 14:02:31] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:03:54,679 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-22 14:03:54,792 - INFO -  * Restarting with stat
+2026-02-22 14:07:25,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-22 14:07:25,935 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-22 14:07:25,940 - INFO -  * Restarting with stat
+2026-02-22 14:07:27,184 - WARNING -  * Debugger is active!
+2026-02-22 14:07:27,195 - INFO -  * Debugger PIN: 698-199-335
+2026-02-22 14:07:30,955 - WARNING - 3 invalid date records skipped
+2026-02-22 14:07:30,971 - INFO - Billing summary generated
+2026-02-22 14:07:31,124 - INFO - 127.0.0.1 - - [22/Feb/2026 14:07:31] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:07:31,233 - INFO - 127.0.0.1 - - [22/Feb/2026 14:07:31] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:07:40,396 - INFO - 127.0.0.1 - - [22/Feb/2026 14:07:40] "GET /download/csv HTTP/1.1" 200 -
+2026-02-22 14:07:52,147 - INFO - 127.0.0.1 - - [22/Feb/2026 14:07:52] "GET /download/excel HTTP/1.1" 200 -
+2026-02-22 14:07:53,861 - INFO - 127.0.0.1 - - [22/Feb/2026 14:07:53] "GET /download/excel HTTP/1.1" 200 -
+2026-02-22 14:08:01,188 - INFO - 127.0.0.1 - - [22/Feb/2026 14:08:01] "GET /download/excel HTTP/1.1" 200 -
+2026-02-22 14:10:35,928 - WARNING - 3 invalid date records skipped
+2026-02-22 14:10:35,939 - INFO - Billing summary generated
+2026-02-22 14:10:36,018 - INFO - 127.0.0.1 - - [22/Feb/2026 14:10:36] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:10:36,051 - INFO - 127.0.0.1 - - [22/Feb/2026 14:10:36] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:11:30,539 - WARNING - 3 invalid date records skipped
+2026-02-22 14:11:30,550 - INFO - Billing summary generated
+2026-02-22 14:11:30,553 - INFO - 127.0.0.1 - - [22/Feb/2026 14:11:30] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:11:30,571 - INFO - 127.0.0.1 - - [22/Feb/2026 14:11:30] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:12:04,985 - WARNING - 3 invalid date records skipped
+2026-02-22 14:12:04,997 - INFO - Billing summary generated
+2026-02-22 14:12:05,006 - INFO - 127.0.0.1 - - [22/Feb/2026 14:12:05] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:12:05,071 - INFO - 127.0.0.1 - - [22/Feb/2026 14:12:05] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:13:08,132 - WARNING - 3 invalid date records skipped
+2026-02-22 14:13:08,144 - INFO - Billing summary generated
+2026-02-22 14:13:08,148 - INFO - 127.0.0.1 - - [22/Feb/2026 14:13:08] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:13:08,225 - INFO - 127.0.0.1 - - [22/Feb/2026 14:13:08] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:14:05,608 - WARNING - 3 invalid date records skipped
+2026-02-22 14:14:05,618 - INFO - Billing summary generated
+2026-02-22 14:14:05,622 - INFO - 127.0.0.1 - - [22/Feb/2026 14:14:05] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:14:05,652 - INFO - 127.0.0.1 - - [22/Feb/2026 14:14:05] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:14:42,038 - WARNING - 3 invalid date records skipped
+2026-02-22 14:14:42,051 - INFO - Billing summary generated
+2026-02-22 14:14:42,061 - INFO - 127.0.0.1 - - [22/Feb/2026 14:14:42] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:14:42,093 - INFO - 127.0.0.1 - - [22/Feb/2026 14:14:42] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:16:40,232 - WARNING - 3 invalid date records skipped
+2026-02-22 14:16:40,243 - INFO - Billing summary generated
+2026-02-22 14:16:40,247 - INFO - 127.0.0.1 - - [22/Feb/2026 14:16:40] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:16:40,274 - INFO - 127.0.0.1 - - [22/Feb/2026 14:16:40] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-22 14:17:02,790 - WARNING - 3 invalid date records skipped
+2026-02-22 14:17:02,798 - INFO - Billing summary generated
+2026-02-22 14:17:02,805 - INFO - 127.0.0.1 - - [22/Feb/2026 14:17:02] "POST /process HTTP/1.1" 200 -
+2026-02-22 14:17:02,828 - INFO - 127.0.0.1 - - [22/Feb/2026 14:17:02] "GET /static/styles.css HTTP/1.1" 200 -
+2026-02-23 15:43:03,815 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\subscriptions.csv
+2026-02-23 15:43:03,839 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\usage.csv
+2026-02-23 15:43:03,847 - WARNING - 3 invalid date records skipped
+2026-02-23 15:43:03,869 - INFO - Billing summary generated
+2026-02-23 15:43:03,870 - INFO - Billing process completed successfully
+2026-02-23 15:44:28,442 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 15:44:28,442 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 15:44:28,454 - INFO -  * Restarting with stat
+2026-02-23 15:44:30,358 - WARNING -  * Debugger is active!
+2026-02-23 15:44:30,431 - INFO -  * Debugger PIN: 698-199-335
+2026-02-23 15:44:38,307 - WARNING - 3 invalid date records skipped
+2026-02-23 15:44:38,377 - INFO - Billing summary generated
+2026-02-23 15:44:38,507 - INFO - 127.0.0.1 - - [23/Feb/2026 15:44:38] "POST /process HTTP/1.1" 200 -
+2026-02-23 15:44:43,529 - WARNING - 3 invalid date records skipped
+2026-02-23 15:44:43,557 - INFO - Billing summary generated
+2026-02-23 15:44:43,566 - INFO - 127.0.0.1 - - [23/Feb/2026 15:44:43] "POST /process HTTP/1.1" 200 -
+2026-02-23 15:44:43,846 - INFO - 127.0.0.1 - - [23/Feb/2026 15:44:43] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-23 15:45:18,784 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\app.py', reloading
+2026-02-23 15:45:18,952 - INFO -  * Restarting with stat
+2026-02-23 15:45:23,249 - WARNING -  * Debugger is active!
+2026-02-23 15:45:23,259 - INFO -  * Debugger PIN: 698-199-335
+2026-02-23 15:46:46,049 - INFO - 127.0.0.1 - - [23/Feb/2026 15:46:46] "GET / HTTP/1.1" 200 -
+2026-02-23 15:46:46,260 - INFO - 127.0.0.1 - - [23/Feb/2026 15:46:46] "[33mGET /static/style.css HTTP/1.1[0m" 404 -
+2026-02-23 15:55:06,123 - INFO - 127.0.0.1 - - [23/Feb/2026 15:55:06] "GET / HTTP/1.1" 200 -
+2026-02-23 15:55:06,401 - INFO - 127.0.0.1 - - [23/Feb/2026 15:55:06] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-23 15:55:39,063 - WARNING - 3 invalid date records skipped
+2026-02-23 15:55:39,127 - INFO - Billing summary generated
+2026-02-23 15:55:39,312 - INFO - 127.0.0.1 - - [23/Feb/2026 15:55:39] "POST /process HTTP/1.1" 200 -
+2026-02-23 15:55:39,387 - INFO - 127.0.0.1 - - [23/Feb/2026 15:55:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-23 15:55:42,736 - INFO - 127.0.0.1 - - [23/Feb/2026 15:55:42] "GET / HTTP/1.1" 200 -
+2026-02-23 15:55:42,771 - INFO - 127.0.0.1 - - [23/Feb/2026 15:55:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2026-02-23 15:56:26,295 - INFO - 127.0.0.1 - - [23/Feb/2026 15:56:26] "GET / HTTP/1.1" 200 -
+2026-02-23 15:56:26,351 - INFO - 127.0.0.1 - - [23/Feb/2026 15:56:26] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-23 15:56:58,117 - INFO - 127.0.0.1 - - [23/Feb/2026 15:56:58] "GET / HTTP/1.1" 200 -
+2026-02-23 15:56:58,175 - INFO - 127.0.0.1 - - [23/Feb/2026 15:56:58] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-23 15:57:24,935 - INFO - 127.0.0.1 - - [23/Feb/2026 15:57:24] "GET / HTTP/1.1" 200 -
+2026-02-23 15:57:24,995 - INFO - 127.0.0.1 - - [23/Feb/2026 15:57:24] "GET /static/style.css HTTP/1.1" 200 -
+2026-02-23 15:58:21,118 - WARNING - 3 invalid date records skipped
+2026-02-23 15:58:23,401 - INFO - 127.0.0.1 - - [23/Feb/2026 15:58:23] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+2026-02-23 15:58:23,688 - INFO - 127.0.0.1 - - [23/Feb/2026 15:58:23] "[36mGET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-23 15:58:23,766 - INFO - 127.0.0.1 - - [23/Feb/2026 15:58:23] "[36mGET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-23 15:58:24,125 - INFO - 127.0.0.1 - - [23/Feb/2026 15:58:24] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=XdKqNHi0e4yKKMV5KuYR HTTP/1.1" 200 -
+2026-02-23 15:58:24,151 - INFO - 127.0.0.1 - - [23/Feb/2026 15:58:24] "[36mGET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-23 15:58:39,904 - WARNING - 3 invalid date records skipped
+2026-02-23 15:58:39,931 - INFO - Billing summary generated
+2026-02-23 15:58:39,940 - INFO - 127.0.0.1 - - [23/Feb/2026 15:58:39] "POST /process HTTP/1.1" 200 -
+2026-02-23 15:58:39,978 - INFO - 127.0.0.1 - - [23/Feb/2026 15:58:39] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-23 16:02:57,171 - INFO - 127.0.0.1 - - [23/Feb/2026 16:02:57] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+2026-02-23 16:02:57,206 - INFO - 127.0.0.1 - - [23/Feb/2026 16:02:57] "[36mGET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-23 16:02:57,221 - INFO - 127.0.0.1 - - [23/Feb/2026 16:02:57] "[36mGET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-23 16:02:57,253 - INFO - 127.0.0.1 - - [23/Feb/2026 16:02:57] "[36mGET /process?__debugger__=yes&cmd=resource&f=console.png&s=XdKqNHi0e4yKKMV5KuYR HTTP/1.1[0m" 304 -
+2026-02-23 16:02:57,272 - INFO - 127.0.0.1 - - [23/Feb/2026 16:02:57] "[36mGET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-23 17:53:13,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-23 17:53:13,833 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-23 17:53:13,839 - INFO -  * Restarting with stat
+2026-02-23 17:53:15,161 - WARNING -  * Debugger is active!
+2026-02-23 17:53:15,185 - INFO -  * Debugger PIN: 698-199-335
+2026-02-23 17:53:26,121 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:26] "[35m[1mPOST /process HTTP/1.1[0m" 500 -
+2026-02-23 17:53:26,267 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:26] "[36mGET /process?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-02-23 17:53:26,269 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:26] "[36mGET /process?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-02-23 17:53:26,366 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:26] "GET /process?__debugger__=yes&cmd=resource&f=console.png&s=UPD9STUueIliv2gNJJFQ HTTP/1.1" 200 -
+2026-02-23 17:53:26,388 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:26] "[36mGET /process?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2026-02-23 17:53:44,384 - WARNING - 3 invalid date records skipped
+2026-02-23 17:53:44,410 - INFO - Billing summary generated
+2026-02-23 17:53:44,455 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:44] "POST /process HTTP/1.1" 200 -
+2026-02-23 17:53:44,475 - INFO - 127.0.0.1 - - [23/Feb/2026 17:53:44] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-24 11:49:36,136 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-02-24 11:49:36,144 - INFO - [33mPress CTRL+C to quit[0m
+2026-02-24 11:49:36,155 - INFO -  * Restarting with stat
+2026-02-24 11:49:38,738 - WARNING -  * Debugger is active!
+2026-02-24 11:49:38,752 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 11:49:50,670 - WARNING - 3 invalid date records skipped
+2026-02-24 11:49:50,721 - INFO - Billing summary generated
+2026-02-24 11:49:50,761 - INFO - 127.0.0.1 - - [24/Feb/2026 11:49:50] "POST /process HTTP/1.1" 200 -
+2026-02-24 11:49:51,019 - INFO - 127.0.0.1 - - [24/Feb/2026 11:49:51] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-24 11:50:01,781 - INFO - 127.0.0.1 - - [24/Feb/2026 11:50:01] "GET /download-summary HTTP/1.1" 200 -
+2026-02-24 11:53:17,749 - WARNING - 3 invalid date records skipped
+2026-02-24 11:53:17,768 - INFO - Billing summary generated
+2026-02-24 11:53:17,790 - INFO - 127.0.0.1 - - [24/Feb/2026 11:53:17] "POST /process HTTP/1.1" 200 -
+2026-02-24 11:53:17,819 - INFO - 127.0.0.1 - - [24/Feb/2026 11:53:17] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+2026-02-24 13:10:30,114 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\billing_engine.py', reloading
+2026-02-24 13:10:30,679 - INFO -  * Restarting with stat
+2026-02-24 13:10:33,935 - WARNING -  * Debugger is active!
+2026-02-24 13:10:33,956 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:10:46,562 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\status_engine.py', reloading
+2026-02-24 13:10:46,723 - INFO -  * Restarting with stat
+2026-02-24 13:10:49,502 - WARNING -  * Debugger is active!
+2026-02-24 13:10:49,519 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:10:54,186 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\usage_aggregator.py', reloading
+2026-02-24 13:10:54,397 - INFO -  * Restarting with stat
+2026-02-24 13:10:57,008 - WARNING -  * Debugger is active!
+2026-02-24 13:10:57,020 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:05,612 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\loader.py', reloading
+2026-02-24 13:11:05,765 - INFO -  * Restarting with stat
+2026-02-24 13:11:08,081 - WARNING -  * Debugger is active!
+2026-02-24 13:11:08,091 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:17,074 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\reporter.py', reloading
+2026-02-24 13:11:17,231 - INFO -  * Restarting with stat
+2026-02-24 13:11:19,265 - WARNING -  * Debugger is active!
+2026-02-24 13:11:19,274 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:34,245 - INFO -  * Detected change in 'E:\\userstory8 - Copy\\Subscription-Billing\\src\\reporter.py', reloading
+2026-02-24 13:11:34,397 - INFO -  * Restarting with stat
+2026-02-24 13:11:36,940 - WARNING -  * Debugger is active!
+2026-02-24 13:11:36,948 - INFO -  * Debugger PIN: 698-199-335
+2026-02-24 13:11:59,477 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\subscriptions.csv
+2026-02-24 13:11:59,480 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\usage.csv
+2026-02-24 13:11:59,503 - WARNING - 3 invalid date records skipped
+2026-02-24 13:11:59,550 - INFO - Billing summary generated
+2026-02-24 13:11:59,550 - INFO - Billing process completed successfully
+2026-02-24 13:13:43,474 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\subscriptions.csv
+2026-02-24 13:13:43,479 - INFO - Loaded file: E:\userstory8 - Copy\Subscription-Billing\data\usage.csv
+2026-02-24 13:13:43,485 - WARNING - 3 invalid date records skipped
+2026-02-24 13:13:43,504 - INFO - Billing summary generated
+2026-02-24 13:13:43,504 - INFO - Billing process completed successfully

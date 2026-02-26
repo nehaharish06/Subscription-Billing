@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Dashboard Layout */
+.dashboard-container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+.kpi-section {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.kpi-card {
+    background: rgb(246, 175, 207);
+    padding: 30px 20px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+}
+
+.kpi-card:hover {
+    transform: translateY(-8px);
+}
+
+.kpi-card h4 {
+    margin-bottom: 10px;
+    color: #666;
+    font-weight: 500;
+}
+
+.kpi-card p {
+    font-size: 28px;
+    font-weight: bold;
+    color: #764ba2;
+}
+/* Chart Box */
+.charts-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.chart-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    width: 280px;
+    height: 320px;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.chart-card canvas {
+    margin-top: 15px;
+}
+
+
+.chart-wrapper {
+    width: 350px;
+    height: 250px;
+    margin: 30px auto;
+}
+
+.chart-wrapper canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Table Box */
+.table-box {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #764ba2;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+    background: #f4f4f4;
+}
+
+/* Status Badges */
+.status-badge {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.status-badge.ACTIVE {
+    background: #28a745;
+}
+
+.status-badge.SUSPENDED {
+    background: #ffc107;
+    color: black;
+}
+
+.status-badge.CANCELLED {
+    background: #dc3545;
+}
+
+/* Back Button */
+.back-section {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.back-btn {
+    text-decoration: none;
+    background: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background: black;
+}
+
+.download-btn {
+    text-decoration: none;
+    background:rgb(246, 175, 207);
+    color: rgb(0, 0, 0);
+    padding: 10px 18px;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.download-btn:hover {
+    background:  #d85cb7;
+}
+
+.back-btn {
+    text-decoration: none;
+    background: rgb(246, 175, 207);
+    color: rgb(0, 0, 0);
+    padding: 10px 18px;
+    border-radius: 25px;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s ease;
+}
+
+.back-btn:hover {
+    background-color: #d85cb7;
+}

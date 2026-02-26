@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Subscription Billing App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="page-wrapper">
+    <div class="container">
+        <h1>Subscription Billing Engine</h1>
+
+        <form action="/process" method="post" enctype="multipart/form-data">
+            
+            <div class="form-group">
+                <label>Upload Subscriptions CSV</label>
+                <input type="file" name="subscriptions" required>
+            </div>
+
+            <div class="form-group">
+                <label>Upload Usage CSV</label>
+                <input type="file" name="usage" required>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                 Process Billing
+            </button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
